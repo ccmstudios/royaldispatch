@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  background: url(../images/royallogo.jpg);
+  background-size: cover;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation-name: rotate;
+  animation-duration:30s;
+  transform-style: preserve-3d;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style:none;
+}
+
+#navbar li{
+  padding: 20px;
+  color: white;
+}
+
+#navbar img{
+  width: 70px;
+  height: 70px;
+}
