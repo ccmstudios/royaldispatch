@@ -65,3 +65,8 @@
   width: 70px;
   height: 70px;
 }
+
+#navlogo{
+  position: relative;
+  bottom: 20px;
+}

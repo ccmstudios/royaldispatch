@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <ul id='navbar'>
-        <li>
+        <li id='navlogo'>
           <img src={logo} className="App-logo" alt="logo" />
         </li>
         <li>
