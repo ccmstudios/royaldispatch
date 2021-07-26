@@ -1,4 +1,3 @@
-import logo from "./royaltylogo.png";
 import "./assets/css/App.css";
 import Navbar from "./components/navbar";
 import Home from './pages/home/home'
@@ -6,7 +5,7 @@ import About from './pages/about/about'
 import Services from './pages/services/services'
 import Contact from './pages/contact/contact'
 
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (

@@ -14,22 +14,22 @@ const Navbar = () => {
         </li>
         <Link to="/" exact path={Home}>
           <li>
-            <a href="#">Home</a>
+            <a href="/home">Home</a>
           </li>
         </Link>
         <Link to="/about" exact path={About}>
           <li>
-            <a href="#">About</a>
+            <a href="/about">About</a>
           </li>
         </Link>
         <Link to="/services" exact path={Services}>
           <li>
-            <a href="#">Services</a>
+            <a href="/services">Services</a>
           </li>
         </Link>
         <Link to="/contact" exact path={Contact}>
           <li>
-            <a href="#">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </Link>
       </ul>
