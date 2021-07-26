@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+
 .App {
   text-align: center;
-  background: url(../images/royallogo.jpg);
+  background-color: black;
   background-size: cover;
+  height: 100vh;
+  color: gold;
 }
 
 .App-logo {
@@ -66,7 +71,41 @@
   height: 70px;
 }
 
+#navbar a {
+  color: gold;
+  text-transform: uppercase;
+}
+
 #navlogo{
   position: relative;
   bottom: 20px;
 }
+
+
+/* navbar end */
+
+/* header */
+#headertext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+text-align: center;
+  font-size: 75px;
+  color: gold;
+  text-shadow: 2px 2px gray;
+  font-family: 'Pirata One', cursive;
+letter-spacing: 10px;
+}
+  
+#headertext:hover{
+  transform: scale(1.1);
+  transition: ease 0.7s;
+}
+
+#header{
+  background: url(../images/trucksunset.jpg);
+  background-size:cover;
+  background-position: right 600px;
+  height: 200px;
+}
+/* header end  */
