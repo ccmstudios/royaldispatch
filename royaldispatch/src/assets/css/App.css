@@ -8,7 +8,10 @@
   height: 100vh;
   color: gold;
 }
-
+body{
+  background-color: black;
+  height: 100vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -71,14 +74,15 @@
   height: 70px;
 }
 
-#navbar a {
-  color: gold;
-  text-transform: uppercase;
-}
 
 #navlogo{
   position: relative;
   bottom: 20px;
+}
+
+#navbar a {
+  color: gold;
+  text-transform: uppercase;
 }
 
 
