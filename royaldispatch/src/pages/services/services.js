@@ -6,6 +6,7 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import logo from "../../assets/images/royaltylogo.png";
+import { colors } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,7 +20,9 @@ const useStyles = makeStyles((theme) => ({
   secondaryHeading: {
     fontSize: theme.typography.pxToRem(15),
     color: theme.palette.text.secondary,
+
   },
+
 }));
 
 export default function ControlledAccordions() {
@@ -31,8 +34,8 @@ export default function ControlledAccordions() {
   };
 
   return (
-    <div className={classes.root}>
-      <Accordion
+    <div id='services' className={classes.root}>
+      <Accordion 
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
       >
@@ -46,8 +49,8 @@ export default function ControlledAccordions() {
             Service 1 overview{" "}
           </Typography>
         </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
+        <AccordionDetails >
+          <Typography >
             Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
             Aliquam eget maximus est, id dignissim quam.
           </Typography>
@@ -56,6 +59,7 @@ export default function ControlledAccordions() {
       <Accordion
         expanded={expanded === "panel2"}
         onChange={handleChange("panel2")}
+        
       >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}

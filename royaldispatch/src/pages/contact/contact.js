@@ -5,7 +5,7 @@ import Contactform from "../../components/contactForm";
 class Contact extends React.Component {
   render() {
     return (
-      <div>
+      <div id='contact'>
         <Contactform />
         <img src={logo} className="App-logo" alt="logo" />
       </div>

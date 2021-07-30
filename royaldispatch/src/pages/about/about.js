@@ -7,7 +7,7 @@ import "./about.css";
 class About extends React.Component {
   render() {
     return (
-      <div>
+      <div id='about'>
         This is About!
         <Image id="aboutimage" src={test} roundedCircle />
         <div>
