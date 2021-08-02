@@ -1,16 +1,16 @@
 import React from "react";
 import logo from "../../assets/images/royaltylogo.png";
 import Image from "react-bootstrap/Image";
-import test from "../../assets/images/test.jpg";
+import harvey from "../../assets/images/harveytest.jpg";
 import "./about.css";
 
 class About extends React.Component {
   render() {
     return (
       <div id='about'>
-        This is About!
-        <Image id="aboutimage" src={test} roundedCircle />
+        <Image id="aboutimage" src={harvey} roundedCircle />
         <div>
+            <h1>Meet Harvey Kimble</h1>
           <h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel
             quam suscipit ante posuere tristique. Fusce non volutpat tellus, at
