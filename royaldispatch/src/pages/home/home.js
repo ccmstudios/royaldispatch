@@ -1,10 +1,8 @@
 import React from "react";
 import Header from "../../components/header";
-import logo from "../../assets/images/royaltylogo.png";
 import Slogan from "../../components/slogan";
 import logo2 from "../../assets/images/royallogo2.jpg";
 import "../home/home.css";
-import Fasttruck from "../../assets/images/fasttruck.jpg";
 import Truckfront from "../../assets/images/truckfront.jpg";
 import Truckside from "../../assets/images/truckside.jpg";
 import Truckstop from "../../assets/images/Truckstop.jpg";
