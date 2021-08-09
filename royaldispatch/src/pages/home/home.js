@@ -8,6 +8,7 @@ import Fasttruck from "../../assets/images/fasttruck.jpg";
 import Truckfront from "../../assets/images/truckfront.jpg";
 import Truckside from "../../assets/images/truckside.jpg";
 import Truckstop from "../../assets/images/Truckstop.jpg";
+import Image from 'react-bootstrap/Image'
 
 class Home extends React.Component {
   render() {
@@ -126,8 +127,7 @@ class Home extends React.Component {
         <br></br>
         <br></br>
         <br></br>
-        <img src={logo} className="App-logo" alt="logo" />
-        <img src={logo2} id="logo2" alt="secondary Logo" />
+        <Image id="homeimage" src={logo2} roundedCircle />
       </div>
     );
   }
