@@ -9,6 +9,7 @@ import Truckfront from "../../assets/images/truckfront.jpg";
 import Truckside from "../../assets/images/truckside.jpg";
 import Truckstop from "../../assets/images/Truckstop.jpg";
 import Image from 'react-bootstrap/Image'
+import Footer from "../../components/footer";
 
 class Home extends React.Component {
   render() {
@@ -128,6 +129,7 @@ class Home extends React.Component {
         <br></br>
         <br></br>
         <Image id="homeimage" src={logo2} roundedCircle />
+        <Footer/>
       </div>
     );
   }

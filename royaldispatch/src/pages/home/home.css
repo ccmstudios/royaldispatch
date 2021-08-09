@@ -46,3 +46,33 @@ body{
     width: 50%;
     border: 75px;
 }
+
+#home h5{
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      #462523 0,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #462523 100%
+    );
+    -webkit-background-clip: text;
+}
+
+#home p{
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      #462523 0,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #462523 100%
+    );
+    -webkit-background-clip: text;
+}

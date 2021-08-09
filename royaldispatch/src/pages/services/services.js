@@ -9,9 +9,9 @@ class Services extends React.Component{
         return(
             <div id='services'>
 <img src={logo} className="App-logo" alt="logo" />
-                <Accordion style ={{backgroundColor: 'black'}}>
-  <Accordion.Item eventKey="0" >
-    <Accordion.Header id='test' >Service #1</Accordion.Header>
+                <Accordion style ={{backgroundColor: 'black'}} flush>
+  <Accordion.Item  style ={{backgroundColor: 'black'}} eventKey="0" >
+    <Accordion.Header  style ={{backgroundColor: 'black'}}id='test' >Service #1</Accordion.Header>
     <Accordion.Body style ={{backgroundColor: 'black'}}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
