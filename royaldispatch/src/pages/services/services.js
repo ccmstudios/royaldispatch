@@ -2,7 +2,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import logo from "../../assets/images/royaltylogo.png";
-import Accordion from "react-bootstrap/Accordion";
 
 class Services extends React.Component {
   render() {
