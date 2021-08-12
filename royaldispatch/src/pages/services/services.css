@@ -1,24 +1,29 @@
-#services{
-    background-color: black;
-    width: 70%;
+#services {
+  background-color: black;
+  width: 70%;
+  min-height: 100vh;
 }
 
-#servicesDropDown{
-    background-color: black;
-    color: transparent;
-    background-image: linear-gradient(
-      to right,
-      #462523 0,
-      #cb9b51 22%,
-      #f6e27a 45%,
-      #f6f2c0 50%,
-      #f6e27a 55%,
-      #cb9b51 78%,
-      #462523 100%
-    );
-    -webkit-background-clip: text;
+#servicesDropDown {
+  background-color: black;
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+  );
+  -webkit-background-clip: text;
 }
 
-#test{
-    background-color: blue;
+#test {
+  background-color: blue;
+}
+
+#servicecards{
+  width: 70%;
 }

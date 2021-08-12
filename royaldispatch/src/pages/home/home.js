@@ -126,7 +126,10 @@ class Home extends React.Component {
         <br></br>
         <br></br>
         <br></br>
+        <div>
+
         <Image id="homeimage" src={logo2} roundedCircle />
+        </div>
         <Footer/>
       </div>
     );
