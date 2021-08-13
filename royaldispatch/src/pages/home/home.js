@@ -44,9 +44,7 @@ class Home extends React.Component {
                   sed semper eu, mollis ut nunc. Duis quis libero leo. Mauris
                   lectus arcu, faucibus id dolor sed, vulputate fermentum nibh.
                 </p>
-                <p className="card-text">
-                  <small className="text-muted">Last updated 3 mins ago</small>
-                </p>
+             
               </div>
             </div>
           </div>
@@ -73,9 +71,7 @@ class Home extends React.Component {
                   sed semper eu, mollis ut nunc. Duis quis libero leo. Mauris
                   lectus arcu, faucibus id dolor sed, vulputate fermentum nibh.
                 </p>
-                <p className="card-text">
-                  <small className="text-muted">Last updated 3 mins ago</small>
-                </p>
+             
               </div>
             </div>
             <div className="col-md-4">
@@ -116,9 +112,7 @@ class Home extends React.Component {
                   sed semper eu, mollis ut nunc. Duis quis libero leo. Mauris
                   lectus arcu, faucibus id dolor sed, vulputate fermentum nibh.
                 </p>
-                <p className="card-text">
-                  <small className="text-muted">Last updated 3 mins ago</small>
-                </p>
+             
               </div>
             </div>
           </div>

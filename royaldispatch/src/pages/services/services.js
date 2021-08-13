@@ -7,6 +7,9 @@ import "./services.css";
 class Services extends React.Component {
   render() {
     return (
+        <div>
+            <h1>Services</h1>
+
         <div className="container" id="services">
           <div className="box">
             <h2>01</h2>
@@ -76,6 +79,7 @@ class Services extends React.Component {
 
 <img src={logo} className="App-logo" alt="logo" />
           </div> */}
+        </div>
         </div>
     );
   }

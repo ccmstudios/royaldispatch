@@ -1,5 +1,12 @@
 #aboutimage{
     width: 25%;
+    transform: scale(1);
+}
+
+#aboutimage:hover{
+    overflow: hidden;
+transform: scale(0.8);
+transition: 0.5s;
 }
 
 #about{
