@@ -1,7 +1,4 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
-import logo from "../../assets/images/royaltylogo.png";
 import "./services.css";
 
 class Services extends React.Component {
@@ -75,10 +72,7 @@ class Services extends React.Component {
               efficitur.
             </p>
           </div>
-          {/* <div>
-
-<img src={logo} className="App-logo" alt="logo" />
-          </div> */}
+  
         </div>
         </div>
     );
