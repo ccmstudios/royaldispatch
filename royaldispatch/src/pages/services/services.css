@@ -30,16 +30,17 @@
 }
 
 .container {
-  width: 100%;
+  width: fit-content;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .container .box {
+    margin: 30px;
     padding: 20px;
   position: relative;
-  width: 300px;
+  width: 360px;
   background: linear-gradient(
     to right,
     #462523 0,
