@@ -4,6 +4,7 @@
     align-items: center;
 line-height: normal;
 width: 50%;
+
 }
 
 #form h1{
@@ -29,7 +30,37 @@ width: 50%;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid gold;
     padding: 15px;
     border-radius: 5%;
+    background: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+  );
+}
+
+#label{
+    background: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+  );
+}
+
+#titles{
+    background: transparent;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px white;
 }
