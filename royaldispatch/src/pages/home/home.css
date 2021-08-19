@@ -78,3 +78,29 @@ body{
     );
     -webkit-background-clip: text;
 }
+
+/* Media Queries */
+
+@media only screen and (min-width: 320px) and (max-width: 667px) /* mobile devices */ {
+    #home{
+        display: inline;
+    }
+
+    #homecard{
+        display: flex;
+    }
+
+    #homeimage{
+        margin: 50px;
+        width: 20%;
+        position: relative;
+        top: 600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+  @media only screen and (min-width: 668px) and (max-width: 1366px) /* tablets to Chromebooks */ {
+    
+  }
+  

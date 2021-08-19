@@ -7,6 +7,10 @@
   width: 100%;
 }
 
+#mainServices{
+    padding: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -129,4 +133,42 @@ h1 {
     #462523 100%
   );
   -webkit-background-clip: text;
+  text-transform: uppercase;
+
 }
+
+#mobileservices{
+    display: none;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 320px) and (max-width: 667px) /* mobile devices */ {
+ #services{
+     display: none;
+ }
+ #mobileservices{
+     display: contents;
+     width: 100%;
+     
+ }
+ #mobileservicecard{
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      #462523 0,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #462523 100%
+    );
+    -webkit-background-clip: text;     
+ }
+}
+
+  @media only screen and (min-width: 668px) and (max-width: 1366px) /* tablets to Chromebooks */ {
+    
+  }
+  

@@ -7,21 +7,7 @@ width: 50%;
 
 }
 
-#form h1{
-    color: transparent;
-    background-image: linear-gradient(
-      to right,
-      #462523 0,
-      #cb9b51 22%,
-      #f6e27a 45%,
-      #f6f2c0 50%,
-      #f6e27a 55%,
-      #cb9b51 78%,
-      #462523 100%
-    );
-    -webkit-background-clip: text;
-    text-transform: uppercase;
-}
+
 #contact{
     background-color: black;
 }
@@ -64,3 +50,19 @@ width: 50%;
     text-transform: uppercase;
     text-shadow: 2px 2px white;
 }
+
+/* Media Queries */
+
+@media only screen and (min-width: 320px) and (max-width: 667px) /* mobile devices */ {
+#contactform{
+    width: 90%;
+}
+
+#form h1{
+    display: contents;
+}
+}
+  @media only screen and (min-width: 668px) and (max-width: 1366px) /* tablets to Chromebooks */ {
+    
+  }
+  
