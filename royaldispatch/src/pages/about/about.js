@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/images/royaltylogo.png";
 import Image from "react-bootstrap/Image";
-import harvey from "../../assets/images/harveytest.jpg";
+import harvey from "../../assets/images/harvey.jpg";
 import "./about.css";
 
 class About extends React.Component {
