@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../assets/images/royaltylogo.png";
 import Contactform from "../../components/contactForm";
 import Footer from "../../components/footer";
 

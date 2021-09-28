@@ -4,8 +4,7 @@ import Slogan from "../../components/slogan";
 import logo2 from "../../assets/images/royallogo2.jpg";
 import "../home/home.css";
 import Truckfront from "../../assets/images/truckfront.jpg";
-import Truckside from "../../assets/images/truckside.jpg";
-import Truckstop from "../../assets/images/Truckstop.jpg";
+
 import Image from "react-bootstrap/Image";
 import Footer from "../../components/footer";
 
