@@ -209,7 +209,7 @@ body {
   -webkit-background-clip: text;
 }
 
-#footer h4 {
+#footer h5 {
   color: transparent;
   background-image: linear-gradient(
     to right,
@@ -222,6 +222,10 @@ body {
     #462523 100%
   );
   -webkit-background-clip: text;
+}
+
+#footer img{
+  width: 20%;
 }
 #form h1{
   color: transparent;

@@ -6,7 +6,7 @@ import "../home/home.css";
 import Truckfront from "../../assets/images/truckfront.jpg";
 import Truckside from "../../assets/images/truckside.jpg";
 import Truckstop from "../../assets/images/Truckstop.jpg";
-import Image from 'react-bootstrap/Image'
+import Image from "react-bootstrap/Image";
 import Footer from "../../components/footer";
 
 class Home extends React.Component {
@@ -26,105 +26,42 @@ class Home extends React.Component {
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  feugiat hendrerit lacus vitae dictum. Aliquam feugiat est
-                  urna, at molestie nulla suscipit nec. Duis at lacus vehicula,
-                  congue nisi vel, scelerisque tellus. Donec vel felis
-                  ullamcorper, condimentum elit sed, tincidunt justo.
-                  Pellentesque habitant morbi tristique senectus et netus et
-                  malesuada fames ac turpis egestas. Praesent commodo sed mauris
-                  eget egestas. Quisque eu rhoncus augue. Cras sit amet urna
-                  convallis, blandit nisl id, consequat nunc. Pellentesque
-                  faucibus lorem sed arcu imperdiet pharetra. Quisque risus
-                  eros, blandit eget purus eu, laoreet porta mauris. Proin
-                  vulputate, orci id porta egestas, nunc nisi suscipit nisi, et
-                  finibus eros lectus ut enim. Vestibulum odio mi, ullamcorper
-                  sed semper eu, mollis ut nunc. Duis quis libero leo. Mauris
-                  lectus arcu, faucibus id dolor sed, vulputate fermentum nibh.
-                </p>
-             
+                <h1 className="card-title">
+                  Royalty Dispatch Services LLC Mission Statement
+                </h1>
+                <h3 className="card-text">
+                  Royalty Dispatch Services, LLC will not only meet our clients
+                  and customers expectations, we will exceed them by providing
+                  exceptional dispatching services. We ensure that we will go
+                  above and beyond for our clients and customers to ensure
+                  successful deliveries. How do we accomplish this? Great
+                  communication because that is what lasting relationships are
+                  built on. Our employees are proficient and professionals in
+                  the logistics industry. Royalty Dispatch Services, LLC thrive
+                  off of customer satisfaction, which makes our customers and
+                  clients top priority. Here at Royalty Dispatch Services, LLC
+                  our main focus is Safety, Family Values, Quality of Life and
+                  making a difference in the community for our future
+                  generations.
+                </h3>
               </div>
             </div>
-          </div>
-        </div>
-        <div id="homecard" class="card mb-3" style={{ maxwidth: "540px" }}>
-          <div className="row g-0">
-            <div className="col-md-8">
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  feugiat hendrerit lacus vitae dictum. Aliquam feugiat est
-                  urna, at molestie nulla suscipit nec. Duis at lacus vehicula,
-                  congue nisi vel, scelerisque tellus. Donec vel felis
-                  ullamcorper, condimentum elit sed, tincidunt justo.
-                  Pellentesque habitant morbi tristique senectus et netus et
-                  malesuada fames ac turpis egestas. Praesent commodo sed mauris
-                  eget egestas. Quisque eu rhoncus augue. Cras sit amet urna
-                  convallis, blandit nisl id, consequat nunc. Pellentesque
-                  faucibus lorem sed arcu imperdiet pharetra. Quisque risus
-                  eros, blandit eget purus eu, laoreet porta mauris. Proin
-                  vulputate, orci id porta egestas, nunc nisi suscipit nisi, et
-                  finibus eros lectus ut enim. Vestibulum odio mi, ullamcorper
-                  sed semper eu, mollis ut nunc. Duis quis libero leo. Mauris
-                  lectus arcu, faucibus id dolor sed, vulputate fermentum nibh.
-                </p>
-             
-              </div>
-            </div>
-            <div className="col-md-4">
-              <img
-                src={Truckstop}
-                className="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-          </div>
-        </div>
-        <div id="homecard" class="card mb-3" style={{ maxwidth: "540px" }}>
-          <div className="row g-0">
-            <div className="col-md-4">
-              <img
-                src={Truckside}
-                className="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div className="col-md-8">
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  feugiat hendrerit lacus vitae dictum. Aliquam feugiat est
-                  urna, at molestie nulla suscipit nec. Duis at lacus vehicula,
-                  congue nisi vel, scelerisque tellus. Donec vel felis
-                  ullamcorper, condimentum elit sed, tincidunt justo.
-                  Pellentesque habitant morbi tristique senectus et netus et
-                  malesuada fames ac turpis egestas. Praesent commodo sed mauris
-                  eget egestas. Quisque eu rhoncus augue. Cras sit amet urna
-                  convallis, blandit nisl id, consequat nunc. Pellentesque
-                  faucibus lorem sed arcu imperdiet pharetra. Quisque risus
-                  eros, blandit eget purus eu, laoreet porta mauris. Proin
-                  vulputate, orci id porta egestas, nunc nisi suscipit nisi, et
-                  finibus eros lectus ut enim. Vestibulum odio mi, ullamcorper
-                  sed semper eu, mollis ut nunc. Duis quis libero leo. Mauris
-                  lectus arcu, faucibus id dolor sed, vulputate fermentum nibh.
-                </p>
-             
-              </div>
-            </div>
-          </div>
-        </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <div>
+              <br></br>
+              <br></br>
+              <br></br>
+              <div>
+                <Image id="homeimage" src={logo2} roundedCircle />
+                <br></br>
+                <br></br>
+                <br></br>
 
-        <Image id="homeimage" src={logo2} roundedCircle />
+              </div>
+              <br></br>
+          </div>
+        <Footer />
         </div>
-        <Footer/>
+
+
       </div>
     );
   }

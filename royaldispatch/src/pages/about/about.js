@@ -3,6 +3,7 @@ import logo from "../../assets/images/royaltylogo.png";
 import Image from "react-bootstrap/Image";
 import harvey from "../../assets/images/harvey.jpg";
 import "./about.css";
+import Footer from "../../components/footer";
 
 class About extends React.Component {
   render() {
@@ -35,7 +36,7 @@ class About extends React.Component {
             rolling!
           </h3>
         </div>
-        <img src={logo} className="App-logo" alt="logo" />
+        <Footer/>
       </div>
     );
   }

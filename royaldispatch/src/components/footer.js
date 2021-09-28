@@ -9,9 +9,7 @@ class Footer extends React.Component {
         <br></br>
         <h3>Areas Served</h3>
         <h4>
-          Servicing the Charlotte Metro Area, Concord, Gastonia, Monroe, Rock
-          Hill, Ballantyne, University, Uptown, Matthews, NODA, Statesville,
-          Plaza Midwood, Indian Trail, Pineville, Mint Hill
+          Servicing the East Coast for all of your Dispatching Needs
         </h4>
         <h3>Royalty Dispatch Services</h3>
         <h3>
@@ -24,9 +22,9 @@ class Footer extends React.Component {
         </h3>
         <br></br>
         <img src={logo} className="App-logo" alt="logo" />
-        <h4 className="text-muted">
+        <h5 className="text-muted">
           Website designed by RZN8 Publishing and CCM Studios LLC
-        </h4>
+        </h5>
       </div>
     );
   }
