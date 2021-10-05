@@ -63,6 +63,7 @@ class Home extends React.Component {
               <h1>Instagram</h1>
               <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
               <iframe
+              title='IG Feed'
                 src="//lightwidget.com/widgets/bd3909dcd2165e4e80c60dcbae59c2ba.html"
                 scrolling="no"
                 allowtransparency="true"
@@ -85,14 +86,7 @@ class Home extends React.Component {
                     {" "}
                     <h1>Facebook</h1>
                     <Facebook />
-                    <div id="fb-root"></div>
-                    <script
-                      async
-                      defer
-                      crossorigin="anonymous"
-                      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=479993293087735&autoLogAppEvents=1"
-                      nonce="CSCdM6uy"
-                    ></script>
+                    
                   </Col>
                   <Col>
                   <h1>Youtube</h1>
