@@ -45,7 +45,7 @@
   margin: 30px;
   padding: 20px;
   position: relative;
-  width: 360px;
+  width: 720px;
   background: linear-gradient(
     to right,
     #462523 0,
@@ -83,13 +83,15 @@
   position: absolute;
   left: 40px;
   top: 60px;
-  font-size: 4em;
+  font-size: 3.5em;
   font-weight: 800;
   z-index: 1;
   opacity: 0.5;
   transition: 0.5s;
   background: transparent;
   color: black;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .box:hover h2 {
@@ -105,6 +107,8 @@
   transition: 0.5s;
   background: transparent;
   color: black;
+  text-transform: uppercase;
+
 }
 
 .container .box p {

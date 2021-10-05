@@ -4,9 +4,13 @@ import Slogan from "../../components/slogan";
 import logo2 from "../../assets/images/royallogo2.jpg";
 import "../home/home.css";
 import Truckfront from "../../assets/images/truckfront.jpg";
-
+import Facebook from "../../components/facebook";
 import Image from "react-bootstrap/Image";
 import Footer from "../../components/footer";
+import Youtube from "../../components/youtube";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 class Home extends React.Component {
   render() {
@@ -45,22 +49,65 @@ class Home extends React.Component {
                 </h3>
               </div>
             </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <div>
+              <Image id="homeimage" src={logo2} roundedCircle />
               <br></br>
               <br></br>
               <br></br>
-              <div>
-                <Image id="homeimage" src={logo2} roundedCircle />
-                <br></br>
-                <br></br>
-                <br></br>
-
-              </div>
+            </div>
+            <br></br>
+            <div id="instagram">
+              <h1>Instagram</h1>
+              <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+              <iframe
+                src="//lightwidget.com/widgets/bd3909dcd2165e4e80c60dcbae59c2ba.html"
+                scrolling="no"
+                allowtransparency="true"
+                class="lightwidget-widget"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  border: "0",
+                  overflow: "hidden",
+                }}
+              ></iframe>
+            </div>
+            <div>
               <br></br>
+              <br></br>
+              <br></br>
+              <Container>
+                <Row>
+                  <Col>
+                    {" "}
+                    <h1>Facebook</h1>
+                    <Facebook />
+                    <div id="fb-root"></div>
+                    <script
+                      async
+                      defer
+                      crossorigin="anonymous"
+                      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=479993293087735&autoLogAppEvents=1"
+                      nonce="CSCdM6uy"
+                    ></script>
+                  </Col>
+                  <Col>
+                  <h1>Youtube</h1>
+                    <Youtube />
+                  </Col>
+                </Row>
+              </Container>
+              <row>
+                <col></col>
+                <col></col>
+              </row>
+            </div>
           </div>
-        <Footer />
+          <Footer />
         </div>
-
-
       </div>
     );
   }
