@@ -7,8 +7,8 @@
   width: 100%;
 }
 
-#mainServices{
-    padding: 50px;
+#mainServices {
+  padding: 50px;
 }
 
 * {
@@ -41,7 +41,7 @@
 }
 
 .container .box {
-    border-radius: 10%;
+  border-radius: 10%;
   margin: 30px;
   padding: 20px;
   position: relative;
@@ -108,7 +108,6 @@
   background: transparent;
   color: black;
   text-transform: uppercase;
-
 }
 
 .container .box p {
@@ -138,41 +137,34 @@ h1 {
   );
   -webkit-background-clip: text;
   text-transform: uppercase;
-
-}
-
-#mobileservices{
-    display: none;
 }
 
 /* Media Queries */
 
 @media only screen and (min-width: 320px) and (max-width: 667px) /* mobile devices */ {
- #services{
-     display: none;
- }
- #mobileservices{
-     display: contents;
-     width: 100%;
-     
- }
- #mobileservicecard{
-    color: transparent;
-    background-image: linear-gradient(
-      to right,
-      #462523 0,
-      #cb9b51 22%,
-      #f6e27a 45%,
-      #f6f2c0 50%,
-      #f6e27a 55%,
-      #cb9b51 78%,
-      #462523 100%
-    );
-    -webkit-background-clip: text;     
- }
+  
+  .container .box{
+    width: 100%;
+    margin:0px;
+  }
+  .box h2 {
+    font-size: 24px;
+    text-align: left;
+  }
+  .container .box h3{
+    font-size: 20px;
+  }
+  .container .box p {
+    font-size: 12px;
+  }
+  #mainServices {
+    padding: 0;
+  }
 }
 
-  @media only screen and (min-width: 668px) and (max-width: 1366px) /* tablets to Chromebooks */ {
-    
+@media only screen and (min-width: 668px) and (max-width: 1366px) /* tablets to Chromebooks */ {
+  .box h2 {
+    font-size: 40px;
+    text-align: left;
   }
-  
+}

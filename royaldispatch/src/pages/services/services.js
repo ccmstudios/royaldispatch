@@ -1,6 +1,5 @@
 import React from "react";
 import "./services.css";
-import Mobileservices from "../../components/mobileservices";
 import Footer from "../../components/footer";
 
 class Services extends React.Component {
@@ -8,7 +7,7 @@ class Services extends React.Component {
     return (
       <div id="mainServices">
         <h1>Services</h1>
-        <Mobileservices />
+
 
         <div className="container" id="services">
           <div className="box">

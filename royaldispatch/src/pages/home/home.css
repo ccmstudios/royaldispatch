@@ -186,15 +186,20 @@ body{
 
     #homeimage{
         margin: 50px;
-        width: 20%;
-        position: relative;
-        top: 600px;
         margin-right: auto;
         margin-left: auto;
+        width: 300px;
+        height: 300px;
     }
 
 }
   @media only screen and (min-width: 668px) and (max-width: 1366px) /* tablets to Chromebooks */ {
-    
+    #homeimage{
+        margin: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 600px;
+        height: 600px;
+    }
   }
   
