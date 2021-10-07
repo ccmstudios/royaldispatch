@@ -14,7 +14,7 @@ class Footer extends React.Component {
         <h3>Royalty Dispatch Services</h3>
         <h3>
           <strong>Phone:</strong>
-          (555) 555-5555
+          (704)923-9587
         </h3>
         <h3>
           <strong>Email:</strong>
