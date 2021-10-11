@@ -8,7 +8,7 @@ class Youtube extends React.Component{
             <div className='player-wrapper'>
         <ReactPlayer
           className='react-player'
-          url='https://www.youtube.com/watch?v=YHR8hFXiX2A'
+          url='https://www.youtube.com/watch?v=qYPWOjCnuuM'
           width='500px'
           height='500px'
         />

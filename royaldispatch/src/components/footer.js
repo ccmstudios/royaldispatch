@@ -18,12 +18,15 @@ class Footer extends React.Component {
         </h3>
         <h3>
           <strong>Email:</strong>
-          RoyaltyDispatchServices@gmail.com{" "}
+          Harvey@RoyaltyDispatchServices.com{" "}
         </h3>
         <br></br>
         <img src={logo} className="App-logo" alt="logo" />
         <h5 className="text-muted">
+          <a href ='www.ccmstudiosinc.com'>
           Website designed by RZN8 Publishing and CCM Studios LLC
+
+          </a>
         </h5>
       </div>
     );
