@@ -63,17 +63,11 @@ class Home extends React.Component {
               <h1>Instagram</h1>
               <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
               <iframe
-              title='IG Feed'
-                src="//lightwidget.com/widgets/bd3909dcd2165e4e80c60dcbae59c2ba.html"
+                src="https://cdn.lightwidget.com/widgets/bd3909dcd2165e4e80c60dcbae59c2ba.html"
                 scrolling="no"
                 allowtransparency="true"
                 class="lightwidget-widget"
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  border: "0",
-                  overflow: "hidden",
-                }}
+                style={{width:"100%", height:"500px", border:"0", overflow:"hidden"}}
               ></iframe>
             </div>
             <div>
@@ -86,10 +80,9 @@ class Home extends React.Component {
                     {" "}
                     <h1>Facebook</h1>
                     <Facebook />
-                    
                   </Col>
                   <Col>
-                  <h1>Youtube</h1>
+                    <h1>Youtube</h1>
                     <Youtube />
                   </Col>
                 </Row>
