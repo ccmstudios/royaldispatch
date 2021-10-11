@@ -63,6 +63,7 @@ class Home extends React.Component {
               <h1>Instagram</h1>
               <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
               <iframe
+              title="IG widget"
                 src="https://cdn.lightwidget.com/widgets/bd3909dcd2165e4e80c60dcbae59c2ba.html"
                 scrolling="no"
                 allowtransparency="true"
