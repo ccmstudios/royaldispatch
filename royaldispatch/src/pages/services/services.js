@@ -1,6 +1,7 @@
 import React from "react";
 import "./services.css";
 import Footer from "../../components/footer";
+import Tafs from "../../components/tafs";
 
 class Services extends React.Component {
   render() {
@@ -29,8 +30,8 @@ class Services extends React.Component {
               We work to get you paid in 1-3 business days, even in an hour in some cases.
             </p>
           </div>
-        
         </div>
+        <Tafs/>
         <Footer />
       </div>
     );
