@@ -63,12 +63,17 @@ class Home extends React.Component {
               <h1>Instagram</h1>
               <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
               <iframe
-              title="IG widget"
+                title="IG widget"
                 src="https://cdn.lightwidget.com/widgets/bd3909dcd2165e4e80c60dcbae59c2ba.html"
                 scrolling="no"
                 allowtransparency="true"
                 class="lightwidget-widget"
-                style={{width:"100%", height:"500px", border:"0", overflow:"hidden"}}
+                style={{
+                  width: "100%",
+                  height: "500px",
+                  border: "0",
+                  overflow: "hidden",
+                }}
               ></iframe>
             </div>
             <div>

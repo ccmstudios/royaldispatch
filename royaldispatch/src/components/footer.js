@@ -40,7 +40,7 @@ Owner/CEO        </h3>
         </h3>
         <h3>
           <strong>Email:</strong>
-          Andrea@RoyaltyDispatchServices.com{" "}
+         Andrea@RoyaltyDispatchServices.com
         </h3></Col>
           </Row>
         </div>
