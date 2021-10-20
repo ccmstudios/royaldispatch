@@ -18,6 +18,30 @@
     transition: ease-in 0.7s;
 }
 
+#slogan2{
+  font-weight: 700;
+  font-size:1em;
+  text-transform: uppercase;
+  line-height: 0.9em;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5em;
+  display: inline-block;
+  padding: 1.5em 0em;
+  width: 70%;
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%)
+}
+
 #home{
     background-color: black;
     padding: 20px;

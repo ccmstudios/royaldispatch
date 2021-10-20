@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/header";
 import Slogan from "../../components/slogan";
-import logo2 from "../../assets/images/royallogo2.jpg";
+import logo from "../../assets/images/royaltylogo.png";
 import "../home/home.css";
 import Truckfront from "../../assets/images/truckfront.jpg";
 import Facebook from "../../components/facebook";
@@ -53,12 +53,14 @@ class Home extends React.Component {
             <br></br>
             <br></br>
             <div>
-              <Image id="homeimage" src={logo2} roundedCircle />
+              <Image id="homeimage" src={logo} className='App-logo'roundedCircle />
               <br></br>
               <br></br>
               <br></br>
+              <h1 id='slogan2'>Our People Make it Happen!</h1>
             </div>
             <br></br>
+            <hr></hr>
             <div id="instagram">
               <h1>Instagram</h1>
               <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
