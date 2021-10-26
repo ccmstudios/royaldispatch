@@ -33,19 +33,15 @@ class Home extends React.Component {
                   Royalty Dispatch Services LLC Mission Statement
                 </h1>
                 <h3 className="card-text">
-                  Royalty Dispatch Services, LLC will not only meet our clients
-                  and customers expectations, we will exceed them by providing
-                  exceptional dispatching services. We ensure that we will go
-                  above and beyond for our clients and customers to ensure
-                  successful deliveries. How do we accomplish this? Great
-                  communication because that is what lasting relationships are
-                  built on. Our employees are proficient and professionals in
-                  the logistics industry. Royalty Dispatch Services, LLC thrive
-                  off of customer satisfaction, which makes our customers and
-                  clients top priority. Here at Royalty Dispatch Services, LLC
-                  our main focus is Safety, Family Values, Quality of Life and
-                  making a difference in the community for our future
-                  generations.
+                  Our Customers are our #1 Priority and Customer Satisfaction is
+                  our #1 Goal. To achieve this, our professional staff will
+                  consistently demonstrate the talents, skills and abilities,
+                  and the most efficient and effective communications that will
+                  result in the on-time and complete deliveries for our
+                  customers and clients. Royal Dispatch Services LLC maintains a
+                  critical focus on the Safety, Family Values, Quality of Life
+                  of its employees, as well as making a difference in the
+                  communities we serve today, and for future generations.
                 </h3>
               </div>
             </div>
@@ -53,11 +49,16 @@ class Home extends React.Component {
             <br></br>
             <br></br>
             <div>
-              <Image id="homeimage" src={logo} className='App-logo'roundedCircle />
+              <Image
+                id="homeimage"
+                src={logo}
+                className="App-logo"
+                roundedCircle
+              />
               <br></br>
               <br></br>
               <br></br>
-              <h1 id='slogan2'>Our People Make it Happen!</h1>
+              <h1 id="slogan2">Our People Make it Happen!</h1>
             </div>
             <br></br>
             <hr></hr>
