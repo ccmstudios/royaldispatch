@@ -14,7 +14,7 @@ class Tafs extends React.Component {
           achieve the highest level of success.
         </h1>
         <h2>
-            <a href="https://go.tafs.com/l/166742/2021-10-18/4ptwmz" target="_blank" rel="noreferrer">
+            <a href="https://go.tafs.com/l/166742/2021-10-18/4ptvdz" target="_blank" rel="noreferrer">
           {" "}
           Click Here to See More!{" "}
         </a>
