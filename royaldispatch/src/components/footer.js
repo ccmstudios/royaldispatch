@@ -31,7 +31,7 @@ Owner/CEO        </h3>
         </h3></Col>
             <Col><h3>Andrea Artis</h3>
         <h4>
-        Moderator/Account Manager
+        Dispatcher/Account Manager
         </h4>
         <h3>Royalty Dispatch Services</h3>
         <h3>
