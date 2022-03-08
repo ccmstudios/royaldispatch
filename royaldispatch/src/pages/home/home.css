@@ -12,6 +12,10 @@
     border: gold solid 5px;
 }
 
+.socialicons{
+  width: 20%;
+}
+
 #logo2:hover{
     overflow: auto;
     transform: scale(1.1);
@@ -109,7 +113,7 @@ body{
 
 
 #instagram{
-    height: 500px;
+    /* height: 500px; */
     color: transparent;
     background-image: linear-gradient(
       to right,

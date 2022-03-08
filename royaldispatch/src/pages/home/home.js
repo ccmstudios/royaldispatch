@@ -11,6 +11,7 @@ import Youtube from "../../components/youtube";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import insta from '../../assets/images/insta.png'
 
 class Home extends React.Component {
   render() {
@@ -64,20 +65,8 @@ class Home extends React.Component {
             <hr></hr>
             <div id="instagram">
               <h1>Instagram</h1>
-              <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-              <iframe
-                title="IG widget"
-                src="https://cdn.lightwidget.com/widgets/bd3909dcd2165e4e80c60dcbae59c2ba.html"
-                scrolling="no"
-                allowtransparency="true"
-                class="lightwidget-widget"
-                style={{
-                  width: "100%",
-                  height: "500px",
-                  border: "0",
-                  overflow: "hidden",
-                }}
-              ></iframe>
+              <a href='https://www.instagram.com/royalty_dispatch_services/' target="_blank" ref='noreferrer'><img className="socialicons" src ={insta} /></a>
+   
             </div>
             <div>
               <br></br>

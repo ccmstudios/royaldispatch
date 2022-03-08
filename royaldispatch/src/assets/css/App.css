@@ -21,6 +21,9 @@ body {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+.socialicons{
+  width: 50%;
+}
 
 @keyframes rotate {
   0% {

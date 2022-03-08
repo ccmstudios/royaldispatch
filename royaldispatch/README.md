@@ -68,3 +68,46 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- Removed Youtube Code -->
+        {/* <ReactPlayer
+          className='react-player'
+          url='https://www.youtube.com/watch?v=qYPWOjCnuuM'
+          width='500px'
+          height='500px'
+        /> */}
+
+<!-- Youtube end -->
+
+<!-- Removed IG code -->
+           {/* <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+              <iframe
+                title="IG widget"
+                src="https://cdn.lightwidget.com/widgets/bd3909dcd2165e4e80c60dcbae59c2ba.html"
+                scrolling="no"
+                allowtransparency="true"
+                class="lightwidget-widget"
+                style={{
+                  width: "100%",
+                  height: "500px",
+                  border: "0",
+                  overflow: "hidden",
+                }}
+              ></iframe> */}
+<!-- IG end -->
+
+<!-- Removed FG code -->
+      {/* <iframe
+        title='facebook feed'
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRoyaltyDispatchServicesLLC&tabs=messages&width=340&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=479993293087735"
+          width="500"
+          height="500"
+          style={{border:"none",overflow:"hidden"}}
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          
+        ></iframe> */}
+<!-- FB end -->
