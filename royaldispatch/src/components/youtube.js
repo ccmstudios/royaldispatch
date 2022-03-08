@@ -6,7 +6,7 @@ class Youtube extends React.Component{
         return(
             <div className='player-wrapper'>
 
-        <a href='https://www.youtube.com/watch?v=qYPWOjCnuuM' target="_blank" rel='noreferrer'><img className="socialicons" src = {ytube}/></a>
+        <a href='https://www.youtube.com/watch?v=qYPWOjCnuuM' target="_blank" rel='noreferrer'><img className="socialicons" alt='YT Feeder'src = {ytube}/></a>
       </div>
         )
     }

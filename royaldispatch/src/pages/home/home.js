@@ -65,7 +65,7 @@ class Home extends React.Component {
             <hr></hr>
             <div id="instagram">
               <h1>Instagram</h1>
-              <a href='https://www.instagram.com/royalty_dispatch_services/' target="_blank" rel='noreferrer'><img className="socialicons" src ={insta} /></a>
+              <a href='https://www.instagram.com/royalty_dispatch_services/' target="_blank" rel='noreferrer'><img className="socialicons" alt='IG Feeder' src ={insta} /></a>
    
             </div>
             <div>
