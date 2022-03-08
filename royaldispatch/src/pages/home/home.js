@@ -76,11 +76,11 @@ class Home extends React.Component {
                 <Row>
                   <Col>
                     {" "}
-                    <h1>Facebook Page</h1>
+                    <h1>Facebook</h1>
                     <Facebook />
                   </Col>
                   <Col>
-                    <h1>Youtube Page</h1>
+                    <h1>Youtube</h1>
                     <Youtube />
                   </Col>
                 </Row>
