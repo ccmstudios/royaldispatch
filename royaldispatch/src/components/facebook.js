@@ -6,7 +6,7 @@ class Facebook extends React.Component {
     return (
       <div className="player-wrapper">
   
-       <a href="https://www.facebook.com/RoyaltyDispatchServicesLLC/" target="_blank" ref='noreferrer'> <img className='socialicons' src ={fbook}/> </a>
+       <a href="https://www.facebook.com/RoyaltyDispatchServicesLLC/" target="_blank" rel='noreferrer'> <img className='socialicons' src ={fbook}/> </a>
       </div>
     );
   }
